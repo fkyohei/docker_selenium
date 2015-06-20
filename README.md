@@ -24,7 +24,8 @@ $ eval "$(boot2docker shellinit)"
 - [selenium/hub](https://registry.hub.docker.com/u/selenium/hub/)
 
 ## run command
-- make fig file
+- make file for use fig  
+(docker-compose.yml)
 
 ```yaml:docker-compose.yml
 hub:
