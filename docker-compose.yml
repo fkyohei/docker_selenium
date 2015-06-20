@@ -1,0 +1,11 @@
+hub:
+    image: selenium/hub
+    ports: 
+        - "4444"
+
+node:
+    image: selenium/node-firefox
+    expose:
+        - "5555"
+    links:
+        - hub
