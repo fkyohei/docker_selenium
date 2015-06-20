@@ -94,3 +94,8 @@ $ docker port dockerprac_hub_1
 - access browser  
 http://192.168.59.103:32769/grid/console
 
+## stop docker process
+```sh
+$ docker stop f19e7ca0f770 59507edae8cd 1a5bf882c41b d26172996780 0c6340ff464e ac4aa13a5427
+```
+
